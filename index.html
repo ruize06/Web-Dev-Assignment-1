@@ -6,22 +6,45 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Assignment 1</title>
 </head>
-<body>
+<body class="font-sans">
 
-    <header class="text-white bg-no-repeat bg-center bg-cover" style="background-image: url(https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);">
-        <nav class="flex">
-            <h1>BRAND</h1>
-            <a href="#">Home</a>
-            <a href="#">About Us</a>
-            <a href="#">Destinations</a>
-            <a href="#">Prices</a>
-            <a href="#">Contact</a>
+    <header class="text-white bg-no-repeat bg-center bg-cover pl-6" style="background-image: url(https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);">
+        
+        <nav class="flex p-6 items-center justify-between">
+            <div id="left">
+                <h1 class="text-3xl font-light">BRAND</h1>
+            </div>
+            <div id="middle" class="gap-6 flex text-sm">
+                <a href="#">Home</a>
+                <a href="#">About Us</a>
+                <a href="#">Destinations</a>
+                <a href="#">Prices</a>
+                <a href="#">Contact</a>
+            </div>
+            <div id="right">
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="30"
+                    height="30"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="white"
+                    stroke-width="1"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                >
+                    <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+                    <path d="M21 21l-6 -6" />
+                </svg>
+            </div>
         </nav>
-        <section>
-            <h1 class="text-6xl w-[30%] font-medium m-5">Shaping Your Journey</h1>
-            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, deserunt laudantium? Alias, id et.</h2>
-            <input type="text" name="Location" id="Location" class="bg-white w-[60%] m-6 p-1 rounded-2xl">
+        
+        <section class="mt-20 ml-10 space-y-10">
+            <h1 class="text-7xl w-[30%] font-medium tracking-wide">Shaping Your Journey</h1>
+            <h2 class="text-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, deserunt laudantium? Alias, id et.</h2>
+            <input type="text" name="Location" id="Location" class="bg-white w-[60%] mb-15 p-1 rounded-2xl">
         </section>
+    
     </header>
 
 </body>
